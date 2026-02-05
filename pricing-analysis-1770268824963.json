@@ -1,0 +1,25 @@
+{
+  "demandSensitivity": "The demand shows moderately elastic (moderately sensitive) behavior. As price increases from ₹40.00 to ₹50.00 (25.0% change), demand increases by 25.0%. This indicates that customers are relatively stable to price changes.",
+  "table": [
+    {
+      "price": 40,
+      "demand": 80,
+      "revenue": 3200,
+      "profit": 1600
+    },
+    {
+      "price": 50,
+      "demand": 100,
+      "revenue": 5000,
+      "profit": 3000
+    }
+  ],
+  "recommendation": {
+    "price": 50,
+    "demand": 100,
+    "revenue": 5000,
+    "profit": 3000
+  },
+  "explanation": "The optimal price point of ₹50 maximizes profit for your ride-hailing platform.\n\nAt this price:\n• Expected demand: 100 units\n• Expected profit: ₹3,000\n• Expected revenue: ₹5,000\n\nThis recommendation considers both the per-unit margin and overall demand volume to maximize profitability.",
+  "confidence": "Medium"
+}
